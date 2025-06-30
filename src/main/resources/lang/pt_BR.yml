@@ -52,13 +52,6 @@ messages:
   - '&2/ul unregister <player>: &aUnregisters the specified player'
   - '&a-----------------------------------------------------'
 other:
-  database_invalid_type: '&eInvalid database type "{type}" selected, default to "yaml"'
-  logfilter_error: '&eFailed to register logging filter'
   database_connected: '&eDatabase connected!'
   database_error: '&cFailed to connect to database, read below:'
   driver_missing: '&cJDBC driver for database missing: {driver}'
-  
-  autologin_enabled: 'Wow, UserLoginProxy! Autologin enabled'
-  fastlogin_enabled: 'Wow, FastLogin! Hook registered'
-  luckperms_enabled: 'Wow, LuckPerms! Contexts were registered'
-  luckperms_provider_missing: 'LuckPerms class was found, but provider was not registered yet?'
