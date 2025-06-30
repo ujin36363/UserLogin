@@ -6,25 +6,23 @@ commands:
     no_permission: '&cYou don''t have permission to use this command'
     player_not_found: '&cไม่พบผู้เล่น!'
     unregister_failed: '&cไม่สามารถลบรหัสผ่านได้อ่านคอนโซลสำหรับข้อมูลเพิ่มเติม'
-  set: '&eThe {type} location has been set at &bX: {x}, Y: {y}, Z: {z}, Y: {yaw},
-    P: {pitch}, &eat the world &b"{world}"'
+  set: '&eThe {type} location has been set at &bX: {x}, Y: {y}, Z: {z}, Y: {yaw}'
+    P: '{pitch}, &eat the world &b"{world}'
   reload: '&ePlugin reloaded!'
   descriptions:
-    nukelogin: The main command for NukeLogin
-    userlogin: คำสั่งหลักสำหรับ userlogin
-    login: บันทึกในผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด
-    register: ลงทะเบียนผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด
-    changepassword: เปลี่ยนรหัสผ่านเป็นรหัสใหม่
+    nukelogin: 'The main command for NukeLogin'
+    userlogin: 'คำสั่งหลักสำหรับ userlogin'
+    login: 'บันทึกในผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด'
+    register: 'ลงทะเบียนผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด'
+    changepassword: 'เปลี่ยนรหัสผ่านเป็นรหัสใหม่'
   usages:
     nukelogin: '&cCorrect usage: /nukelogin [command] (Use /nukel help for more)'
     userlogin: '&cถูกต้อง usage: /userlogin [command] (Use /ul help for more)'
     login: 'พิม: /login <password> เพื่อเข้าสู่ระบบ'
     register: 'พิม: /register <password> <password> เพื่อสมัครเข้าระบบ'
-    changepassword: '&cCorrect usage: /changepassword <old-password> <new-password>
-      <new-password>'
+    changepassword: '&cCorrect usage: /changepassword <old-password> <new-password> <new-password>'
 messages:
-  not_registered: '&cคุณไม่ได้ลงทะเบียน! &fพิม &b/register&f <password> <password>
-    &cเพื่อสมัคร!'
+  not_registered: '&cคุณไม่ได้ลงทะเบียน! &fพิม &b/register&f <password> <password> &cเพื่อสมัคร!'
   already_registered: '&cคุณลงทะเบียนแล้ว!'
   incorrect_password: '&cรหัสผ่านผิดพลาด!'
   short_password: '&cรหัสผ่านของคุณต้องมีขั้นต่ำ &4{chars} &cตัวอักษร'
