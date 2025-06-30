@@ -6,8 +6,7 @@ commands:
     no_permission: '&cYou don''t have permission to use this command'
     player_not_found: '&cไม่พบผู้เล่น!'
     unregister_failed: '&cไม่สามารถลบรหัสผ่านได้อ่านคอนโซลสำหรับข้อมูลเพิ่มเติม'
-  set: '&eThe {type} location has been set at &bX: {x}, Y: {y}, Z: {z}, Y: {yaw}'
-    P: '{pitch}, &eat the world &b"{world}'
+  set: '&eA locação {type} foi definida em &bX: {x}, Y: {y}, Z: {z}, Y: {yaw}, P: {pitch}, &eno mundo &b"{world}"'
   reload: '&ePlugin reloaded!'
   descriptions:
     nukelogin: 'The main command for NukeLogin'
