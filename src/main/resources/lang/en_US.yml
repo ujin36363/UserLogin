@@ -38,8 +38,8 @@ messages:
   welcome:
     registered: '&7/login &aรหัสผ่าน'
     unregistered: '&7/register &eรหัสผ่าน รหัสผ่าน'
-  chat_disabled: คุณต้องเข้าสู่ระบบก่อนเพื่อใช้การแชท!
-  timeout: คุณอยู่นานเกินไปโดยไม่เข้าสู่ระบบ
+  chat_disabled: 'คุณต้องเข้าสู่ระบบก่อนเพื่อใช้การแชท!'
+  timeout: 'คุณอยู่นานเกินไปโดยไม่เข้าสู่ระบบ'
   max_attempts_exceeded: '&4✖ &fคุณใส่รหัสผิดพลาด &4✖'
   login_announcement: '&e{player} ได้เข้าร่วมเซิร์ฟเวอร์!'
   move_warning: '&cคุณต้องเข้าสู่ระบบเพื่อเคลื่นไหว!'
@@ -61,8 +61,7 @@ other:
   database_error: '&cFailed to connect to database, read below:'
   driver_missing: '&cJDBC driver for database missing: {driver}'
   
-  autologin_enabled: Wow, UserLoginProxy! Autologin enabled
-  fastlogin_enabled: Wow, FastLogin! Hook registered
-  luckperms_enabled: Wow, LuckPerms! Contexts were registered
-  luckperms_provider_missing: LuckPerms class was found, but provider was not registered
-    yet?
+  autologin_enabled: 'Wow, UserLoginProxy! Autologin enabled'
+  fastlogin_enabled: 'Wow, FastLogin! Hook registered'
+  luckperms_enabled: 'Wow, LuckPerms! Contexts were registered'
+  luckperms_provider_missing: 'LuckPerms class was found, but provider was not registered yet?'
