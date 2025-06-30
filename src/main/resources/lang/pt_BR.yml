@@ -9,13 +9,11 @@ commands:
   set: '&eA locação {type} foi definida em &bX: {x}, Y: {y}, Z: {z}, Y: {yaw}, P: {pitch}, &eno mundo &b"{world}"'
   reload: '&ePlugin reloaded!'
   descriptions:
-    nukelogin: 'The main command for NukeLogin'
     userlogin: 'คำสั่งหลักสำหรับ userlogin'
     login: 'บันทึกในผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด'
     register: 'ลงทะเบียนผู้ใช้ของคุณด้วยรหัสผ่านที่กำหนด'
     changepassword: 'เปลี่ยนรหัสผ่านเป็นรหัสใหม่'
   usages:
-    nukelogin: '&cCorrect usage: /nukelogin [command] (Use /nukel help for more)'
     userlogin: '&cถูกต้อง usage: /userlogin [command] (Use /ul help for more)'
     login: 'พิม: /login <password> เพื่อเข้าสู่ระบบ'
     register: 'พิม: /register <password> <password> เพื่อสมัครเข้าระบบ'
