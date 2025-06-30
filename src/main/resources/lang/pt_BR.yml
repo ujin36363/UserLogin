@@ -43,12 +43,12 @@ messages:
   password_changed: '&aเปลี่ยนรหัสผ่านให้คุณเรียบร้อย'
   password_change_error: '&cมีข้อผิดพลาดในการเปลี่ยนรหัสผ่านของคุณ'
   help:
-  - '&a----------- | &2[UserLogin Help] &a| -----------'
-  - '&2/ul help: &aShows this help list'
-  - '&2/ul reload: &aReloads the configurations'
-  - '&2/ul set [login|spawn]: &aSets the specified location at your position'
-  - '&2/ul unregister <player>: &aUnregisters the specified player'
-  - '&a-----------------------------------------------------'
+    - '&a----------- | &2[UserLogin Help] &a| -----------'
+    - '&2/ul help: &aShows this help list'
+    - '&2/ul reload: &aReloads the configurations'
+    - '&2/ul set [login|spawn]: &aSets the specified location at your position'
+    - '&2/ul unregister <player>: &aUnregisters the specified player'
+    - '&a-----------------------------------------------------'
 other:
   database_connected: '&eDatabase connected!'
   database_error: '&cFailed to connect to database, read below:'
